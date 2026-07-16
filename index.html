@@ -3,19 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <title>BRO.chat</title>
-    <meta name="description" content="BRO.chat — built on Replit. Update this description to reflect the app." />
+
+    <title>BRO.chat — AI Chat, Redefined</title>
+    <meta name="description" content="BRO.chat is a next-gen AI chat platform powered by GPT-4. Start conversations, explore AI tools, and chat smarter — built by Metatron878." />
     <meta name="robots" content="index, follow" />
-    <meta property="og:title" content="BRO.chat" />
-    <meta property="og:description" content="BRO.chat — built on Replit. Update this description to reflect the app." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="BRO.chat" />
-    <meta name="twitter:description" content="BRO.chat — built on Replit. Update this description to reflect the app." />
+    <meta name="theme-color" content="#0a0a0f" />
+
+    <!-- SPA routing: restore route from 404.html redirect -->
+    <script>
+      (function () {
+        var p = new URLSearchParams(window.location.search).get('p');
+        if (p) {
+          window.history.replaceState(null, null, window.location.pathname + p);
+        }
+      })();
+    </script>
+
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
