@@ -1,0 +1,28 @@
+/* BRO conic-gradient logo */
+.bro-logo {
+  background: conic-gradient(from 210deg, #ff2bd6, #8a5bff, #22e6ff, #ff2bd6);
+}
+
+/* Gradient text: pink → cyan */
+.gradient-text {
+  background: linear-gradient(90deg, #ff2bd6, #8a5bff, #22e6ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom scrollbar utility class */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: hsl(var(--muted-foreground) / 0.3);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.5);
+}
